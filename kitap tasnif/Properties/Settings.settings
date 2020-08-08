@@ -1,0 +1,38 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="kitap_tasnif.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="kitap_tasnifConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;User Id=postgres;Host=localhost;Database=kitap_tasnif;Initial Schema=public&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;Devart.Data.PostgreSql&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">User Id=postgres;Host=localhost;Database=kitap_tasnif;Initial Schema=public</Value>
+    </Setting>
+    <Setting Name="kitap_tasnifConnectionStringNEW" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;User Id=postgres;Password=123123123;Host=localhost;Database=kitap_tasnif;Persist Security Info=True;Initial Schema=public&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;Devart.Data.PostgreSql&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">User Id=postgres;Password=123123123;Host=localhost;Database=kitap_tasnif;Persist Security Info=True;Initial Schema=public</Value>
+    </Setting>
+    <Setting Name="postgresConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;User Id=postgres;Password=123123123;Host=localhost;Database=postgres;Initial Schema=public&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;Devart.Data.PostgreSql&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">User Id=postgres;Password=123123123;Host=localhost;Database=postgres;Initial Schema=public</Value>
+    </Setting>
+    <Setting Name="kitap_tasnifnew" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;server=localhost;user id=root;password=Hakan.033;port=3340;database=kitap_tasnif&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">server=localhost;user id=root;password=Hakan.033;port=3340;database=kitap_tasnif</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
